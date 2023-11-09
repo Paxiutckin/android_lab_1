@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">android_cs2</string>
+    
+<string name="title">Counter-Strike 2</string>
+    <string name="description">Компьютерная игра в жанре многопользовательского тактического шутера от первого лица, разрабатываемая компанией Valve. Игроки делятся на две команды: контртеррористы и террористы. Каждый игровой режим имеет разные цели и разделен на несколько раундов</string>
+    <string name="name1">S1mpl</string>
+    <string name="date1">July.23.2023</string>
+    <string name="com1">Графика очень красивая. Я наслаждаюсь игрой — здесь все круто. Посредине экрана, справа, везде... Не знаю, это просто идеально. В том числе эти классические цвета. Но FPS — отстой.</string>
+    <string name="name2">Boombl4</string>
+    <string name="date2">May.25.2023</string>
+    <string name="com2">Игра еще сырая. Мне кажется, ее добавят ближе к зиме, ноябрь-декабрь. Будет 3 месяца на подготовку к мейджору</string>
+    <string name="date3">September.28.2023</string>
+    <string name="name3">Бустер</string>
+    <string name="com3">Проснулся, трезво посмотрел на всё и понял, зачем они CS:GO убрали, у 80% людей не тянет CS2, кейсов новых не добавили с релизом, операции не добавили, карт новых нет, кто у них маркетолог, у этих, Valve, напишите мне, вы продукты свои продавать не умеете.</string>
+    <string name="action">action</string>
+    <string name="multiplayer">multiplayer</string>
+    <string name="fight">fight</string>
+    <string name="download">Download</string>
+    <string name="Review">Review</string>
+    <string name="Ratings">Ratings</string>
+    <string name="reviews">90M REVIEWS</string>
+    <string name="ocenka">4.6</string>
+    <string name="ninetyM">90M</string>
+</resources>
