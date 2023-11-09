@@ -78,6 +78,7 @@ fun Screen() {
 
         description()
         promoPhoto()
+        button()
         ReviewRating()
 
         //создание контейнера Row в котором будут храниться: рейтинг, звезды и кол-во просмотров
@@ -106,12 +107,8 @@ fun Screen() {
                 textReviews()
             }
         }
-             Column(modifier = Modifier.padding(bottom = 85.dp)) {
-
-               //вызов комментариев
+                //вызов комментариев
             comments()
-        }
     }
-    button()
     }
 

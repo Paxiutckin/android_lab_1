@@ -1,9 +1,6 @@
 package com.example.android_cs2
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
@@ -22,29 +19,25 @@ import com.example.android_cs2.ui.theme.Myblack
 
 @Composable
 //создание формы кнопки
-fun button() {
-    Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Bottom) {
+fun button(){
+    TextButton(
+        onClick ={},
+        modifier = Modifier
+            .padding(start =30.dp, end = 30.dp, top = 25.dp )
+            .height(50.dp)
+            .width(380.dp)
+            .clip(shape = RoundedCornerShape(size = 12.dp))
+            .background(color = MyYellow),
 
 
-        TextButton(
 
-            onClick = {},
-            modifier = Modifier
-                .padding(start =30.dp, end = 30.dp,bottom = 25.dp )
-                .height(50.dp)
-                .width(380.dp)
-                .clip(shape = RoundedCornerShape(size = 12.dp))
-                .background(color = MyYellow),
-
-
-            )
-        //добавление надписи "Install"
-        {
-            Text(
-                text = stringResource(R.string.download),
-                fontSize = 25.sp,
-                color = Myblack
-            )
-        }
+        )
+        //добавление надписи "Download"
+    {
+        Text(
+            text = stringResource(R.string.download),
+            fontSize = 25.sp,
+            color = Myblack
+        )
     }
 }
