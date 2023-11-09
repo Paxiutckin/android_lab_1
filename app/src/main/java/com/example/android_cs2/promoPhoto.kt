@@ -23,7 +23,7 @@ fun promoPhoto(){
 
 
         ) {
-        promo(promo = R.drawable.promo1)
+        videoplayer()
         promo(promo = R.drawable.promo2)
         promo(promo = R.drawable.promo3)
         promo(promo = R.drawable.promo4)
