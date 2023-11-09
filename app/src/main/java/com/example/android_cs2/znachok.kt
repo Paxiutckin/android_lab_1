@@ -13,6 +13,8 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun znachok(){
+
+    //создание и настройка контейнера
     Card(
 
         modifier = Modifier
@@ -23,6 +25,7 @@ fun znachok(){
 
 
     )
+    //вставка
     {
         Image(
             painter = painterResource(id = R.drawable.znacok),

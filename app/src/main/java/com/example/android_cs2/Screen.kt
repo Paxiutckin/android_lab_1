@@ -78,7 +78,6 @@ fun Screen() {
 
         description()
         promoPhoto()
-        button()
         ReviewRating()
 
         //создание контейнера Row в котором будут храниться: рейтинг, звезды и кол-во просмотров
@@ -87,7 +86,7 @@ fun Screen() {
                 .padding(bottom = 15.dp),
             verticalAlignment = Alignment.CenterVertically
         )
-
+                //рейтинг
         {
             ocenka()
 
@@ -107,8 +106,12 @@ fun Screen() {
                 textReviews()
             }
         }
-                //вызов комментариев
+             Column(modifier = Modifier.padding(bottom = 85.dp)) {
+
+               //вызов комментариев
             comments()
+        }
     }
+    button()
     }
 
